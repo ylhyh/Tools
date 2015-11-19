@@ -21,6 +21,7 @@ namespace ReplaceContent
                 Console.WriteLine("	[drive:][path]filename	指定要被替换的文件。");
                 Console.WriteLine("	oldValue		要被替换的字符串。");
                 Console.WriteLine("	newValue		要替换出现的所有 oldValue 的字符串。");
+                Environment.Exit(1);
                 return;
             }
 
